@@ -1,0 +1,105 @@
+html{
+	width: 100%;
+	height: 100%;
+	
+	background-image: url("https://picsum.photos/1920/1080");
+	background-size: cover;
+	background-repeat: none;
+	background-position: 50%;
+}
+
+body{
+	background-color: rgba(0,0,0,0);
+}
+
+section{
+	margin-top:100px;
+}
+
+
+ul{
+	padding:20px 0;
+	width: 300px;
+    margin: 0 auto;
+}
+
+ul>li{
+	list-style-type: none;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+.todolist-title h2{
+	margin-bottom: 30px;
+	color:#eee;
+}
+
+#inputContent{
+	width: 300px;
+    padding: 5px;
+}
+
+.totalTask{
+	font-size: 20px;
+}
+
+
+
+.todobtn{
+	margin-left: 30px;
+    color: #eee;
+    font-size: 15px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.todobtn:hover{
+	color: #d6b161;
+}
+
+.todolist-title{
+	margin-bottom: 50px;
+}
+
+.chkbox{
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	border:1px solid #eee;
+	border-radius: 50%;
+	cursor: pointer; /*Let the chkbox like a button*/
+
+}
+
+.chkbox.finish{
+	background-color: #777;
+}
+
+.content{
+	font-size: 20px;
+}
+
+.content.done{
+	text-decoration: line-through;
+}
+
+
+.chklist{
+	width: 500px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+	color:#eee;
+	
+}
+
+.delete{
+	color:#eee;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.delete:hover{
+	color:#d6b161;
+}
